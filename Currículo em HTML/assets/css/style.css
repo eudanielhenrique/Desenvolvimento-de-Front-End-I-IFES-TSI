@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*variáveis*/
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+  --purple-light: #ebe4f1;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--body-bg-color);
+  color: var(--purple);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
