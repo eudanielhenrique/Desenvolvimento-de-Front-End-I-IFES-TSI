@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root{
+  --green: #2F9E41;
+  --gray: #f2f2f2;
+}
+
+
+body {
+  align-self: initial;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: "aside main";
+  
+  background-color: var(--gray);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+a:hover {
+  color: #090909;
+}
+
+ion-icon {
+  font-size: 24px;
+  margin-right: 24px;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-top: 63px;
+}
+
+.o-aside {
+  grid-area: aside;
+}
+
+.o-main {
+  grid-area: main;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(243, 241, 241, 0.721);
+}
+
+.sidebar {
+  background: var(--green);
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: inline-block;
+  width: 332px;
+
+}
+
+.logo-white{
+  margin: 213px auto auto 109px;
+  text-align: left 
+
+  width: 120px;
+  height: 150px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}

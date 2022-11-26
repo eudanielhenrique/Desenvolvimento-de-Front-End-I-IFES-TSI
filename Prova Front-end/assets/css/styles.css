@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+:root {
+  /*variáveis de cores*/
+  --body-bg-color: #121214;
+  --green: #68912e;
+  --gray: rgba(236, 236, 236, 0.763);
+
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--green);
+  padding: 15px;
+}
+
+nav {
+  padding: 15px;
+  border-bottom: 1px solid rgba(236, 236, 236, 0.763);
+}
+
+nav h1 {
+  color: var(--green);
+  font-weight: 400;
+}
+
+
+.login {
+  border: 1px solid rgba(236, 236, 236, 0.763);
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.login h2 {
+  color: var(--green);
+  font-weight: 400;
+}
+
+.text-color {
+  color: var(--green);
+  font-weight: 300;
+  padding: 15px;
+}
+
+button{
+  color: #333;
+  
+  border: 1px solid gray;
+  border-button-color: #b3b3b3b;
+  border-radius: 4px;
+
+  background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+
+  height: 40px;
+  width: 10%;
+  margin-top:10px;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+p {
+  font-weight: 300;
+}
+
+footer {
+  background-color: var(--green);
+  padding: 15px;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) var(--gray);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+}
