@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  align-self: initial;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: "aside main";
+
+  background:rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+a:hover {
+  color: #090909;
+}
+
+ion-icon {
+  font-size: 24px;
+  margin-right: 24px;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-top: 63px;
+}
+
+.o-aside {
+  grid-area: aside;
+}
+
+.o-main {
+  grid-area: main;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(243, 241, 241, 0.721);
+}
+
+.sidebar {
+  position: fixed;
+  background: white;
+  padding: 120px;
+  height: 100%;
+  border: 1px solid rgba(236, 236, 236, 0.763);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+.stories {
+  background: white;
+  flex-direction: row;
+
+  width: 500px;
+  height: 10vw;
+  margin-left: 90px;
+  margin-top: 70px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(236, 236, 236, 0.763);
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+.feed {
+  background: white;
+  width: 500px;
+  height: 50vw;
+
+  margin-left: 90px;
+  margin-top: 70px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(236, 236, 236, 0.763);
+  border-radius: 8px;
+
+  text-align: center;
+}
